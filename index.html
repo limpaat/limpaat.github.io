@@ -1,11 +1,69 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patrick Lim</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <h1>Hello, world.</h1>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="#home">Patrick Lim</a>
+      <nav class="site-nav">
+        <a class="page-link" href="#home">Home</a>
+        <a class="page-link" href="#news">News</a>
+        <a class="page-link" href="#reads">Reads</a>
+        <a class="page-link" href="#findme">Find Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <section class="home" id="home">
+        <figure class="profile-fig">
+          <div class="profile-pic profile-placeholder">Image Placeholder</div>
+        </figure>
+      </section>
+
+      <p>Hi there! I am Patrick. I am a research engineer with interests spanning systems, computational inference, and human-computer ineteraction.</p>
+      <p>My work sits at the intersection of low-latency systems design and the interfaces through which humans interact with computational process under time pressure.</p>
+
+      <section id="news">
+        <h3>News:</h3>
+        <ul>
+          <li>Feb 2026: Started taking course at <a href="https://math.illinois.edu/">UIUC</a>.</li>
+          <li>Jan 2026: Started taking course at <a href="https://www.cs.stanford.edu/">Stanford</a>.</li>
+          <li>Apr 2024: <a href="https://lebound.co.kr/">LE BOUND</a> won funding from <a href="https://mcee.go.kr/eng/">Ministry of Climate, Energy and Environment</a>!</li>
+          <li>Jan 2024: Started helping out <a href="https://lebound.co.kr/">LE BOUND</a>, the future of vegan cosmetics!</li>
+          <li>Aug 2023: Attended <a href="https://www.youtube.com/@zk-sel1569/videos">Zero Knowledge Seoul</a> seminars.</li>
+          <li>May 2023: Completed <a href="https://github.com/boomlabs-web3">Boom Labs</a> seminars!</li>
+        </ul>
+      </section>
+
+      <section id="reads">
+        <h3>Things I am Reading:</h3>
+        <ul>
+          <li><a href="https://www.usenix.org/conference/osdi23/presentation/li-xupeng">Spoq: Scaling Machine-Checkable Systems Verification in Coq (OSDI 2023)</a></li>
+          <li><a href="https://doi.org/10.56553/popets-2024-0052">SoK: Secure Human-Centered Wireless Sensing (PoPETS 2024)</a></li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer" id="findme">
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <h4>CONTACT</h4>
+          <div class="social-links">
+            <div class="social-link">p.l [at] fastmail [dot] com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
